@@ -1,0 +1,44 @@
+/* body {
+  padding: 0px 20px 20px 20px;
+} */
+
+body,
+html {
+  margin: 0px;
+  height: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pure-menu-link {
+  font-size: 25px;
+}
+
+header {
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.intro {
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.cat-gif-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
