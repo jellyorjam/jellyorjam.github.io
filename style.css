@@ -27,9 +27,8 @@ textarea,
   font-size: 25px;
 }
 
-header {
-  height: 100vh;
-  padding-top: 200px;
+nav {
+  height: 200px;
 }
 
 .intro {
@@ -42,3 +41,29 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.outer {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.worm {
+  background-color: cadetblue;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.worm-content {
+  display: flex;
+}
+
+/* .row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homescreen {
+  display: flex;
+  flex-direction: column;
+} */
