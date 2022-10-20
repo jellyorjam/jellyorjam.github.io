@@ -27,7 +27,7 @@ textarea,
   font-size: 25px;
 }
 
-nav {
+.homepage-nav {
   height: 200px;
 }
 
@@ -58,12 +58,49 @@ nav {
   display: flex;
 }
 
-/* .row {
-  display: flex;
-  justify-content: flex-end;
+.worm-header {
+  text-align: center;
+  font-size: 50px;
 }
 
-.homescreen {
+h1 {
+  margin: 0;
+}
+#worm-link {
+  font-size: 25px;
+}
+
+.worm-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.worm-text {
+  font-size: 40px;
+  width: 400px;
+}
+
+.worm-text-right {
+  padding-left: 40px;
+}
+
+.discover-pics {
   display: flex;
   flex-direction: column;
-} */
+  gap: 20px;
+}
+
+.demo-vid {
+  width: 600px;
+}
+
+.demo-vid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.demo-text {
+  text-align: center;
+}
