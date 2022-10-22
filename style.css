@@ -11,11 +11,29 @@
 
 @media screen and (max-width: 600px) {
   #menu {
-    display: none;
+    font-size: 15px;
   }
 
   .homepage-nav {
     height: 100px;
+  }
+
+  #worm-pics {
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #worm-right {
+    order: 1;
+  }
+
+  .worm-left {
+    order: 2;
+  }
+
+  .worm-left-3 {
+    order: 3;
   }
 }
 
@@ -174,6 +192,8 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-text {
@@ -213,6 +233,7 @@ h1 {
 
 .worm-grid {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
