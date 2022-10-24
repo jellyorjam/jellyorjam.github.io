@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
   #menu {
     font-size: 15px;
   }
@@ -18,8 +18,13 @@
     height: 100px;
   }
 
+  .project-pic {
+    width: 300px;
+    height: 175px;
+  }
+
   #worm-pics {
-    width: 450px;
+    width: 350px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -51,13 +56,17 @@ textarea,
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .flex-menu {
   display: flex;
   justify-content: space-between;
 }
 
 .pure-menu-link {
-  font-size: 25px;
+  font-size: 22px;
+  color: black;
 }
 
 .header {
@@ -219,9 +228,12 @@ h2 {
 
 /* worm page */
 
-.worm-header {
+.worm-header,
+.trello-header,
+.covid-header {
   text-align: center;
   font-size: 50px;
+  padding-top: 40px;
 }
 
 h1 {
@@ -236,8 +248,35 @@ h1 {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  margin: 40px;
+}
+
+.worm-grid,
+.demo-vid-container,
+.trello-grid,
+.covid-grid {
+  padding: 20px;
+  margin: 40px 150px 40px 150px;
+  border: 3px solid #333333;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  position: relative;
+}
+
+/* fun sketchy border by Andy Bell https://codepen.io/piccalilli/pen/MPLzay */
+
+.worm-grid::before,
+.demo-vid-container::before,
+.trello-grid::before,
+.covid-grid::before {
+  content: "";
+  border: 2px solid #353535;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+  border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
 }
 
 .worm-text {
@@ -277,4 +316,52 @@ h1 {
 .vid-description {
   width: 600px;
   font-size: 20px;
+  line-height: 25px;
+}
+
+/* trello(ish) styling */
+
+#trello-authors,
+#covid-authors {
+  font-size: 20px;
+  margin: 0px;
+}
+
+/* .trello-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+} */
+
+.trello-description {
+  font-weight: normal;
+  width: 600px;
+  text-align: justify;
+}
+.covid-description {
+  font-weight: normal;
+  width: 600px;
+  text-align: center;
+}
+
+.pic-description {
+  font-size: 30px;
+  margin-top: 10;
+  width: 800px;
+  text-align: center;
+}
+
+.trello-grid,
+.covid-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trello-description-container,
+.covid-description-container {
+  display: flex;
+  justify-content: center;
 }

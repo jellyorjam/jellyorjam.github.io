@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello(ish)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+      integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="pure-menu pure-menu-horizontal flex-menu">
+        <li class="pure-menu-item">
+          <a href="./index.html" class="pure-menu-link my-name" id="menu"
+            >Emily Freeman</a
+          >
+        </li>
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <a href="./index.html#projects" class="pure-menu-link" id="menu"
+              >Projects</a
+            >
+          </li>
+          <li class="pure-menu-item">
+            <a href="./index.html#about" class="pure-menu-link" id="menu"
+              >About</a
+            >
+          </li>
+          <li class="pure-menu-item">
+            <a href="./index.html#contact" class="pure-menu-link" id="menu"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="trello-header">
+      <h1>Trello(ish)</h1>
+      <h2 id="trello-authors">
+        Built by Emily Freeman, Natalie Poppe, and Alex Rodgers
+      </h2>
+    </header>
+    <section class="trello-content">
+      <div class="trello-description-container">
+      <h3 class="trello-description arial">
+        A full-stack web app that mimics the core functionality of Trello, a
+        social task management service. Trello(ish) was built in one month in an
+        agile development environment.
+      </h3>
+    </div>
+
+      <div class="trello-grid">
+      <img
+        src="./screenshots/profilepage.png"
+        alt="profile page showing a list of workspaces"
+        width="800"
+      />
+      <p class="pic-description">Create workspaces for all of your projects</p>
+    </div>
+
+    <div class="trello-grid">
+      <img
+        src="./screenshots/boardspage.png"
+        alt="boards of to-do lists"
+        width="800"
+      />
+      <p class="pic-description">
+        Create lists to help organize your tasks and easily drag tasks from one
+        list to another
+      </p>
+    </div>
+    <div class="trello-grid">
+      <img
+        src="./screenshots/carddetail.png"
+        alt="detailed card showing what the task is and user comments"
+        width="800"
+      />
+      <p class="pic-description">Communicate with your team on each task</p>
+    </div>
+      <div class="demo-vid-container">
+        <div class="demo-vid">
+          <div style="position: relative; padding-bottom: 62.5%; height: 0">
+            <div style="position: relative; padding-bottom: 51.5625%; height: 0;"><iframe src="https://www.loom.com/embed/b04cbfe2195d46238fdad7b937fddad6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" ></iframe></div>
+          </div>
+        </div>
+    </section>
+    <footer class="footer">
+      Built with good ole HTML and CSS. Grid and buttons from &nbsp
+      <a href="https://purecss.io/">Pure.css.</a>
+    </footer>
+  </body>
+</html>
