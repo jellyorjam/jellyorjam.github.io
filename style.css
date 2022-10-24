@@ -38,7 +38,7 @@ textarea,
   min-height: 280px;
 }
 .intro {
-  font-size: 20px;
+  font-size: 30px;
   width: 400px;
 }
 
@@ -464,6 +464,10 @@ h1 {
   #trello-authors,
   #covid-authors {
     font-size: 3vw;
+  }
+
+  .intro {
+    font-size: 20px;
   }
 }
 
