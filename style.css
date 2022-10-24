@@ -207,7 +207,8 @@ h1 {
   font-size: 20px;
 }
 
-.worm-title {
+.worm-title,
+.trello-title {
   font-size: 5rem;
 }
 
@@ -252,8 +253,8 @@ h1 {
 }
 
 .worm-text {
-  font-size: 40px;
-  width: 400px;
+  font-size: 3rem;
+  max-width: 400px;
 }
 
 .worm-text-right {
@@ -320,7 +321,7 @@ h1 {
 .pic-description {
   font-size: 30px;
   margin-top: 10;
-  width: 800px;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -336,6 +337,10 @@ h1 {
 .covid-description-container {
   display: flex;
   justify-content: center;
+}
+
+.trello-pic {
+  max-width: 800px;
 }
 
 /* media queries */
@@ -414,14 +419,43 @@ h1 {
   .demo-vid {
     width: 300px;
   }
+  .worm-text {
+    padding: 40px 0px 10px 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #worm-link {
+    padding-bottom: 20px;
+  }
+
+  .vid-description {
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    line-height: 20px;
+  }
+
+  #worm-button {
+    margin-top: 10px;
+  }
+
+  .trello-pic {
+    width: 300px;
+  }
+
+  .trello-title {
+    font-size: 50px;
+  }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .worm-grid,
   .demo-vid-container,
   .trello-grid,
   .covid-grid {
     border: none;
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
   }
 
   .worm-grid::before,
