@@ -347,11 +347,6 @@ h1 {
 /* media queries */
 
 @media screen and (min-width: 481px) {
-  body,
-  html {
-    height: 100%;
-  }
-
   .homepage-nav {
     height: 200px;
   }
@@ -362,6 +357,11 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+  body,
+  html {
+    height: 100%;
+  }
+
   .flex-menu {
     flex-direction: column;
     align-items: center;
