@@ -21,7 +21,7 @@ textarea,
 }
 
 .pure-menu-link {
-  font-size: 1.5rem;
+  font-size: 20px;
   color: black;
 }
 
@@ -131,9 +131,9 @@ h2 {
 }
 
 .project-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
 }
 
 .project-div {
@@ -207,7 +207,6 @@ h1 {
   font-size: 20px;
 }
 
-.worm-title,
 .trello-title {
   font-size: 5rem;
 }
@@ -255,6 +254,7 @@ h1 {
 .worm-text {
   font-size: 3rem;
   max-width: 400px;
+  padding: 20px;
 }
 
 .worm-text-right {
@@ -362,12 +362,21 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+  .flex-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .my-name {
+    text-align: center;
+  } */
+
   #menu {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .homepage-nav {
-    height: 70px;
+    height: 90px;
   }
 
   .project-pic {
@@ -419,35 +428,53 @@ h1 {
 
   .demo-vid {
     width: 300px;
-  }
-  .worm-text {
-    padding: 40px 0px 10px 0px;
-    font-size: 30px;
-    text-align: center;
+    padding-top: 40px;
   }
 
-  #worm-link {
-    padding-bottom: 20px;
+  .worm-title {
+    font-size: 45px;
+  }
+
+  .worm-header,
+  .trello-header,
+  .covid-header {
+    padding: 20px 0px 0px 0px;
+  }
+  .worm-text {
+    padding: 40px 5px 30px 5px;
+    font-size: 30px;
+    text-align: center;
   }
 
   .vid-description {
     font-size: 15px;
     padding: 0px 10px 0px 10px;
     line-height: 20px;
+    text-align: center;
   }
 
   #worm-button {
     margin-top: 10px;
+    font-size: 15px;
   }
 
   .trello-pic,
   .covid-pic {
     width: 300px;
+    padding-top: 40px;
   }
 
-  .trello-title,
-  .covid-title {
+  .trello-title {
     font-size: 50px;
+  }
+
+  .covid-title {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  .covid-description {
+    font-size: 17px;
   }
 
   .trello-description {
@@ -469,6 +496,12 @@ h1 {
   .intro {
     font-size: 20px;
   }
+
+  .page-break {
+    width: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -486,5 +519,6 @@ h1 {
   .trello-grid::before,
   .covid-grid::before {
     border: none;
+    display: none;
   }
 }
