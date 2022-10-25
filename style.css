@@ -347,6 +347,11 @@ h1 {
 /* media queries */
 
 @media screen and (min-width: 481px) {
+  body,
+  html {
+    height: 100%;
+  }
+
   .homepage-nav {
     height: 200px;
   }
