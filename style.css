@@ -371,9 +371,9 @@ h1 {
   justify-content: center;
 }
 
-#writing-header {
+/* #writing-header {
   padding-top: 50px;
-}
+} */
 
 .writing-caption {
   max-width: 300px;
@@ -387,6 +387,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+#writing-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
 /* media queries */
@@ -550,6 +557,10 @@ h1 {
     width: 50px;
     border: 1px solid black;
     margin: 0 auto;
+  }
+
+  .writing-description {
+    width: 300px;
   }
 }
 
