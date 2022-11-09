@@ -344,6 +344,51 @@ h1 {
   max-width: 800px;
 }
 
+/* writing section */
+
+.writing-pic {
+  max-width: 300px;
+}
+
+.writing-section {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-flow: row wrap;
+  flex: 1 100%;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.writing-description {
+  text-align: center;
+  font-size: 20px;
+  max-width: 800px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+}
+
+#writing-header {
+  padding-top: 50px;
+}
+
+.writing-caption {
+  max-width: 300px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.writing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 /* media queries */
 
 @media screen and (min-width: 481px) {
