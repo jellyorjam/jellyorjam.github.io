@@ -393,7 +393,7 @@ h1 {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 /* media queries */
@@ -410,6 +410,9 @@ h1 {
 
   .demo-vid {
     width: 600px;
+  }
+  .section-header {
+    padding-top: 50px;
   }
 }
 
@@ -561,6 +564,10 @@ h1 {
 
   .writing-description {
     width: 300px;
+  }
+
+  #writing-header {
+    padding-top: 50px;
   }
 }
 
